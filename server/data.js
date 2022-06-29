@@ -1,4 +1,4 @@
-const list = [
+const record = [
   {
     search: 'IMDb Top 250 Movies',
     description: 'MDb Top 250 Movies · 1. The Shawshank Redemption (1994) · 2. The Godfather (1972) · 3. The Dark Knight (2008) · 4. The Godfather Part II (1974) · 5. 12 Angry Men ( ...',
@@ -48,10 +48,64 @@ const list = [
     url: 'https://www.tomsguide.com/news/7-best-new-movies-to-stream-this-week-on-netflix-hbo-max-hulu-and-more-june-28',
     search: '7 best new movies to stream this week on Netflix, HBO Max ...',
     description: '1 day ago — The seven top new movies you can stream at home this week include Edgar Wright latest, a big animated feature and an important ...'
-  }
+  },
  
+  //laptops
+  {
+    search: 'Cheap deals on Laptops, Windows laptops and more',
+    description: 'Browse our Laptop range at Currys for unmissable deals on Laptops, Windows laptops and more. Available online for delivery or order & collect.',
+    url: 'https://www.currys.co.uk/computing/laptops'
+  },
+  {
+    search: 'Laptops & PCs - Argos',
+    description: 'Laptops & PCs at Argos. Whether buying a new PC or upgrading your old one. Order online today for fast home delivery.',
+    url: 'https://www.argos.co.uk/browse/technology/laptops-and-pcs/c:29953/'
+  },
+  {
+    search: 'Latest Laptop Deals - Laptops Direct',
+    description: 'Check out our cheap Laptop deals on Windows, Gaming, 2-in-1 and Chromebook Laptops. Find your perfect Laptop and get free delivery with ao.com.',
+    url: 'The Latest Laptop deals | HP, Samsung, Apple - AO.coms'
+  },
+  {
+    search: 'Laptops - Amazon.co.uk',
+    description: 'Results 1 - 12 of 10000+ — Online shopping for Laptops from a great selection at Computers & Accessories Store.',
+    url: 'https://www.amazon.co.uk/laptops/b?ie=UTF8&node=429886031'
+  },
+
+  {
+    search: 'Best laptop deals in the sales - Which? Magazine',
+    description: '10 Jun 2022 — Laptop deals in the sales as chosen by Which? computing experts. Advice on how to find the best deal on budget laptops, Ultrabooks and ...',
+    url: 'https://www.which.co.uk/reviews/laptops/article/best-laptop-deals-a0gLg0i9nmhc'
+  },
+
+
+  {
+    search: 'Latest Laptop Deals | Very.co.uk',
+    description: 'Items 1 - 30 of 297 — Explore the great range of Laptops available at very.co.uk. Order online now with buy now pay later. Low monthly payment options.',
+    url: 'https://www.very.co.uk/electricals/laptops/e/b/4873.end'
+  },
+  {
+    search: 'Laptop Computers | Lenovo UK',
+    description: 'Shop latest laptops & 2-in-1 PCs at Lenovo UK for office, gaming, entertainment, student & everyday use. Free Shipping & returns online or call 020 ...',
+    url: 'https://www.lenovo.com/gb/en/c/LAPTOPS?orgRef=https%253A%252F%252Fwww.google.com%252F'
+  },
+  {
+    search: 'Cheap Laptop Deals | Ebuyer.com',
+    description: 'Results 1 - 12 of 10000+ — Online shopping for Laptops from a great selection at Computers & Accessories Store.',
+    url: 'https://www.amazon.co.uk/laptops/b?ie=UTF8&node=429886031'
+  },
+  {
+    search: 'Laptops - Amazon.co.uk',
+    description: 'Results 1 - 24 of 471 — High-performance laptops deals at Ebuyer. Cheap laptops to suit every user, next day delivery, and flexible finance.',
+    url: 'https://www.ebuyer.com/store/Computer/cat/Laptops'
+  },
+  {
+    search: 'Laptops - Amazon.co.uk',
+    description: 'Results 1 - 12 of 10000+ — Online shopping for Laptops from a great selection at Computers & Accessories Store.',
+    url: 'https://www.amazon.co.uk/laptops/b?ie=UTF8&node=429886031'
+  },
 
 ]
 
 
-module.exports = list
+module.exports = record
