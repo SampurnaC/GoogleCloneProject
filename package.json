@@ -20,5 +20,8 @@
   "homepage": "https://github.com/SampurnaC/GoogleCloneProject#readme",
   "devDependencies": {
     "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
   }
 }
