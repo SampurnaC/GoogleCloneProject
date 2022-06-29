@@ -12,10 +12,6 @@ app.get('/', (req, res) => {
     res.status(200).send(list)
 })
 
-app.post('/', (req, res) => {
-    res.status(404).send('Not allowed')
-})
-
 app.get('/:searchResult', (req, res) => {
     const searchTerm = [req.params.searchResult.toLowerCase()];
     
@@ -35,14 +31,6 @@ app.get('/:searchResult', (req, res) => {
     }
 });
 
-function getRandomLink () {
-    return list[Math.floor(Math.random()*list.length)];
-}
-
-router.get('/',(req,res) =>{
-    const link = getRandomLink()
-    res.send(link);
-})
 
 app.listen(port, () => console.log(`Starting on http://localhost:${port}`))
 module.exports = app;
