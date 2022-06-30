@@ -1,12 +1,10 @@
 const express = require('express')
 const app = express()
-const path = require('path')
 const list = require('./data')
 const cors = require('cors');
 const port = process.env.PORT || 3000;
 app.use(express.json())
 app.use(cors());
-const router = express.Router()
 
 app.get('/', (req, res) => {
     res.status(200).send(list)
@@ -15,12 +13,12 @@ app.get('/', (req, res) => {
 app.get('/:searchResult', (req, res) => {
     const searchTerm = [req.params.searchResult.toLowerCase()];
     
-    const results = list.filter(item => {
+    const results = list.filter((item) => {
         const title = item.search.toLowerCase();
-        const findWords = searchTerm.map(term => {
+        const findWords = searchTerm.map((term) => {
             return title.match(term);
         });
-        
+        console.log(findWords)
         return findWords[0] !== null;
     });
 
