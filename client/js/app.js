@@ -20,7 +20,8 @@ function getSearchValue(){
     })
 }
 
-function appendResults(data) {
+
+const appendResults=(data)=>{
     data.forEach(r => {
         searchResults.append(displayLink(r.url))
         searchResults.append(displayTitle(r.search, r.url))
@@ -28,25 +29,19 @@ function appendResults(data) {
     })
 }
 
-function displayLink(url){
+const displayLink=(url)=>{
     const link = document.createElement("p");
     link.textContent = `${url}`
     link.setAttribute("href", `${url}`);
     return link;
 }
 
-function displayTitle(search, url){
+const displayTitle=(search, url)=>{
     const title = document.createElement("a");
     title.textContent = `${search}`
     title.setAttribute("href", `${url}`);
     return title;
 }
-// function displayDescription(desc){
-//     const description = document.createElement("p");
-//     description.textContent = `${desc}`
-//     return description;
-
-// }
 
 const displayDescription=(desc)=>{
     const description = document.createElement("p");
